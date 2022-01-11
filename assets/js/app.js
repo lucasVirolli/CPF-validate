@@ -34,7 +34,6 @@ class validateCPF {
   }
 
   validate() {
-    // console.log(this.cpfClean)
     if(!this.cpfClean) return false;
     if(typeof this.cpfClean !== 'string') return false;
     if(this.cpfClean.length !== 11) return false;
