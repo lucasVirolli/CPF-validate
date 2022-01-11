@@ -13,11 +13,11 @@ It was a class that I've learned about 'Class' in a course on the 'Udemy Courses
 " made by the developer and mentor:
 - Luiz Otávio Miranda 🧙‍♂️
 
-I totally recommend this course if you want to learn principally about JS, node, typeScript and much more. Look how many topics he teachs, link below: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
+I totally recommend this course if you want to learn principally about JS, node, typeScript and much more. Look how many topics he teaches, link below: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
 
-My intention in this project was to learn how a CPF can be validate and practice Class on JavaScript.
+My intention in this project was to learn how a CPF can be validated and practice Class on JavaScript.
 
-I just did the "Controller", HTML and CSS, because the course don't has HTML and CSS. You can see below:
+I just did the "Controller", HTML and CSS, because the course doesn't have HTML and CSS. You can see below:
 
 ```javascript
 /*
@@ -46,9 +46,9 @@ validateButton.addEventListener('click', () => {
 
 Well, it's not everything about the project, but I just want to bring here what I did differently to practice what I have been learning!
 
-## 📌 But what is CPF and how validate a CPF?
+## 📌 But what is CPF and how do you validate a CPF?
 The CPF is the Individual Taxpayer Registry. It is a document made by the Federal Revenue and serves to identify taxpayers. </br>
-The CPF is a number with 11 digits, which only change by court decision. </br>
+The CPF is a number with 11 digits, which only changes by court decision. </br>
 </br>
 To validate one CPF is necessary make a calculus with the 9 first numbers, you can see better bellow:
 I will show giving an example:
@@ -59,7 +59,7 @@ First, it's necessary to get the nine first numbers and multiply like below:
 <table>
 <tr>
   <td>CPF</td>
-  <td>MULTIPLYER</td>
+  <td>MULTIPLIER</td>
   <td>RESULT</td>
 </tr>
 <tr>
@@ -119,11 +119,11 @@ The calculus to get the first digit is: </br>
 If the digit number is greater than 9, we consider 0.
 </br>
 </br>
-Now that we have the first digit, the second digit is the same thing, but the multiplyer start with the number 11 as below:
+Now that we have the first digit, the second digit is the same thing, but the multiplier start with the number 11 as below:
 <table>
 <tr>
   <td>CPF</td>
-  <td>MULTIPLYER</td>
+  <td>MULTIPLIER</td>
   <td>RESULT</td>
 </tr>
 <tr>
@@ -188,7 +188,7 @@ The calculus to get the second digit is: </br>
 If the digit number is greater than 9, we consider 0.
 </br>
 </br>
-Now we have the two digits to check our CPF: </br>
+Now we have both digits to check our CPF: </br>
 First Digit = 5 </br>
 Second Digit = 2 </br>
 </br>
