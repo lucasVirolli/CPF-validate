@@ -9,15 +9,15 @@ Check if a CPF is valid or not.
 
 ## ℹ Description/Important notes
 
-It was a class that I've learned about 'Class' in a course on the 'Udemy Courses', called "Curso de JavaScript e TypeScript do básico ao avançado 2021
-" made by the developer and mentor:
+It was a class that I learned about 'Class' in a course on the 'Udemy Courses', called "Curso de JavaScript e TypeScript do básico ao avançado 2021
+" (JS and TS course from basic to advanced), done by the developer and mentor:
 - Luiz Otávio Miranda 🧙‍♂️
 
-I totally recommend this course if you want to learn principally about JS, node, typeScript and much more. Look how many topics he teaches, link below: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
+I totally recommend this course if you want to learn principally about JS, node, typeScript and much more. Take a look on how many topics he teaches: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
 
 My intention in this project was to learn how a CPF can be validated and practice Class on JavaScript.
 
-I just did the "Controller", HTML and CSS, because the course doesn't have HTML and CSS. You can see below:
+I did just the "Controller", HTML and CSS, because the course doesn't have HTML and CSS classes. Check this out:
 
 ```javascript
 /*
@@ -44,17 +44,17 @@ validateButton.addEventListener('click', () => {
   <img src="./assets/lucas-validacao-cpf.gif" />
 </h1>
 
-Well, it's not everything about the project, but I just want to bring here what I did differently to practice what I have been learning!
+Well, it's not all about the project, but I just want to bring here what I did differently to practice what I have been learning.
 
 ## 📌 But what is CPF and how do you validate a CPF?
-The CPF is the Individual Taxpayer Registry. It is a document made by the Federal Revenue and serves to identify taxpayers. </br>
-The CPF is a number with 11 digits, which only changes by court decision. </br>
+The CPF is the Individual Taxpayer Registry. It is a document made by Receita Federal (equivalent to IRS in USA) and it identifies taxpayers. </br>
+The CPF is a unique number with 11 digits. </br>
 </br>
-To validate one CPF is necessary make a calculus with the 9 first numbers, you can see better bellow:
-I will show giving an example:
+To validate one CPF is necessary to calculate the 9 first numbers as you can see better here:
+I will show an example:
 
-CPF example: 705.484.450-52
-First, it's necessary to get the nine first numbers and multiply like below:
+CPF 705.484.450-52
+First, it's necessary to get the nine first numbers and multiply:
 
 <table>
 <tr>
@@ -116,10 +116,10 @@ First, it's necessary to get the nine first numbers and multiply like below:
 
 The calculus to get the first digit is: </br>
 11 - (237 % 11) = 5 (First digit) </br>
-If the digit number is greater than 9, we consider 0.
+If the number is greater than 9, we consider 0.
 </br>
 </br>
-Now that we have the first digit, the second digit is the same thing, but the multiplier start with the number 11 as below:
+Now that we have the first digit, the second digit is the same thing, but the multiplier starts with the number 11:
 <table>
 <tr>
   <td>CPF</td>
@@ -185,7 +185,7 @@ Now that we have the first digit, the second digit is the same thing, but the mu
 
 The calculus to get the second digit is: </br>
 11 - (284 % 11) = 2 (First digit) </br>
-If the digit number is greater than 9, we consider 0.
+If the number is greater than 9, we consider 0.
 </br>
 </br>
 Now we have both digits to check our CPF: </br>
@@ -198,7 +198,7 @@ This project is under the MIT license. See the [LICENSE](https://choosealicense.
 
 ##
 
-If you want to collaborate, to give some opinion, if you know a different way to do, or just want to make a new friend, than send me a e-mail or message on my LinkedIn:
+If you want to collaborate, to give some opinion, if you know a different way to do, or just want to make a new friend, than send me an e-mail or a message on my LinkedIn:
  <a href = "mailto:lucas.virolli2@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
  <a href="https://www.linkedin.com/in/lucasvirollidalbello/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
